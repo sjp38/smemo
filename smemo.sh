@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
-
-# Simple memo script for termux on Android
+# SPDX-License-Identifier: GPL-3.0
+#
+# Simple memo script for minimal Linux shell environments
 
 if [ $# -ne 1 ]
 then
