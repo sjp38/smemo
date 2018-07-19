@@ -22,4 +22,4 @@ fi
 echo $DATE >> $FILENAME
 echo "============================" >> $FILENAME
 echo >> $FILENAME
-echo $MEMO >> $FILENAME
+echo $MEMO | fold -w 79 -s >> $FILENAME
