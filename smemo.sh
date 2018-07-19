@@ -14,8 +14,11 @@ FILENAME=`date '+%Y%m'`.md
 DATE=`date`
 MEMO=$1
 
-echo >> $FILENAME
-echo >> $FILENAME
+if [ -f $FILENAME ]
+then
+	echo >> $FILENAME
+	echo >> $FILENAME
+fi
 echo $DATE >> $FILENAME
 echo "============================" >> $FILENAME
 echo >> $FILENAME
