@@ -1,0 +1,23 @@
+smemo
+=====
+
+`smemo` is a simple memo application that is intended to be used on minimal
+Linux shell environment including `Termux` on Android.
+
+
+Author
+======
+
+SeongJae Park <sj38.park@gmail.com>
+
+
+License
+=======
+
+GPL v3
+
+
+References
+==========
+
+[1] https://wiki.termux.com/wiki/Main_Page
