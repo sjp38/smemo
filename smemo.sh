@@ -3,10 +3,14 @@
 #
 # Simple memo script for minimal Linux shell environments
 
-if [ $# -ne 1 ]
-then
+usage() {
 	echo "Usage: $0 <memo>"
 	exit 1
+}
+
+if [ $# -ne 1 ]
+then
+	usage
 fi
 
 FILENAME=`date '+%Y%m'`.md
