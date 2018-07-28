@@ -13,6 +13,10 @@ then
 	usage
 fi
 
+BINDIR=`dirname $0`
+mkdir -p $BINDIR/memo
+cd $BINDIR/memo
+
 FILENAME=`date '+%Y%m'`.md
 # Fri Jul 13 20:29:01 CDT 2018
 DATE=`date`
