@@ -5,6 +5,12 @@ smemo
 Linux shell environment including `Termux` on Android.
 
 
+Usage
+=====
+
+`$ bash smemo.sh <memo>`
+
+
 Author
 ======
 
